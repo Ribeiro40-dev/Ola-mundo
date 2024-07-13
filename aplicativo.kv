@@ -1,0 +1,18 @@
+import kivy
+from kivy.app import App: 
+from kivy.uix.boxlayouy import BoxLayout:
+from kivy.uix.button import Button:
+from kivy.uix.labelimport import Label:
+
+class FirstLayout(BoxLayout):
+    pass 
+
+class Tset(App):
+    def build(self):
+        layout1 = FirstLayout(orientation='vertical')
+        layout1.add.widget(Button(text='Projeto Saúde'))
+        layout1.add_widget(Label(text='Receitas'))
+        retoun layout1
+
+Test().run() 
+        
