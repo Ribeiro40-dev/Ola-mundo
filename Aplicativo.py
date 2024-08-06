@@ -6,7 +6,7 @@ from kivy.uix.boxlayout import BoxLayout
 class Test(App):
     def build(self): 
         box = BoxLayout()
-        
+    
         return Button(text='Projeto Saúde')
 
 Test().run() 
